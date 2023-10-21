@@ -17,7 +17,7 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
         <div class="container">
-            <a class="navbar-brand" href="#">Project 02</a>
+            <a class="navbar-brand" href="#">Project 05</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -42,11 +42,11 @@
     </nav>
 
     <!-- main banner -->
-    <section class="panopticbgimage" id="home">
+    <section class="decoderbgimage" id="home">
         <div class="container-fluid">
             <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pi-text">
-                <h2 class="hero_title">Panoptic Segmentation on Chili Fertigation Image for Robot Navigation and Obstacle Avoidance</h2>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title">4 to 16 Balanced Tree Decoder</h2>
             </div>
             </div>
         </div>
@@ -61,7 +61,7 @@
             <div class="row" style="margin-top: 50px;"></div>
 
             <div class="text-center">
-                <p class="hero_desc">Development of a deep learning algorithm to identify the chili fertigation and create a graphical user interface (GUI) for user interaction.</p>
+                <p class="hero_desc">Analyse combinational and sequential logic circuits and registers in integrated circuit technology and design logic circuits and registers based on digital circuit modelling. Develop two circuits, in which one of them acts as the original circuit, while another one should be the improved version of the original circuit that is more efficient.</p>
             </div>
     </section>
 
@@ -76,9 +76,9 @@
             <div class="row justify-content-center">
                 <div class="col-lg-4 mt-4">
                     <div class="card">
-                        <img class="card-img-top" src="images\matlab.jpeg" alt="MATLAB Image" style="width:75%; margin:auto;">
+                        <img class="card-img-top" src="images\vivado.jpeg" alt="MATLAB Image" style="width:50%; margin:auto;">
                         <div class="card-body text-center">
-                            <h4 class="card-title">MATLAB</h4>
+                            <h4 class="card-title">Xininx Vivado</h4>
                         </div>
                     </div>
                 </div>
@@ -95,15 +95,15 @@
 
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <img src="images\panoptic_method.png" alt="Card image" style="width:50%; display:block; margin:auto;">
+                    <img src="images\Decoder_method.png" alt="Card image" style="width:75%; display:block; margin:auto;">
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="card">
                         <div class="card-body">
-                            <h4 class="card-title">Naive Approach</h4>
-                            <p class="card-text">Achieve paniptic segmentation by combining both semantic and instance segmentation. Semantic segmentation focus on identifying the different regions or areas in the image based on the objects or elements present. Instance segmentation identify and delineate each individual object separately within the image. Based on this, panoptic segmentation combines the tasks of semantic segmentation and instance segmentation to identify a unified segmentation that covers all elements of the scene, enabling a holistic understanding of the image by considering both the semantics and the instances present. </p>
+                            <h4 class="card-title">Adding Hierarchy</h4>
+                            <p class="card-text">Adding hierarchy can improve the design significantly in terms of both speed and area. In this case, adding hierarchy technique was applied to the balanced tree decoder by collapsing the hierarchy of the decoder to achieve more efficient synthesis.</p>
                         </div>
                     </div>
                 </div>
@@ -121,14 +121,15 @@
 
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <img class="card-img-top" src="images\panoptic_res.png" alt="Card image" style="width:75%; margin:auto;">
+                    <img class="card-img-top" src="images\Decoder_elaboratedView.png" alt="Card image" style="width:60%; margin:auto;">
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="card">
                         <div class="card-body">
-                            <h4 class="card-title" style="text-align: center;">Left: Original video frame containing chili fertigation. Right: Identified Chili fertigation by the algorithm.</h4>
+                            <h4 class="card-title" style="text-align: center;">Functional Block Diagram/Elaborated View.</h4>
+                            <p class="card-text">The structure of the improved design has more hierarchy than the original design.</p>
                         </div>
                     </div>
                 </div>
@@ -139,14 +140,34 @@
 
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <img class="card-img-top" src="images\panoptic_GUI.png" alt="Card image" style="width:50%; margin:auto;">
+                    <img class="card-img-top" src="images\Decoder_outwave.png" alt="Card image" style="width:60%; margin:auto;">
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="card">
                         <div class="card-body">
-                            <h4 class="card-title" style="text-align: center;">Graphical User Interface (GUI) created.</h4>
+                            <h4 class="card-title" style="text-align: center;">Output Waveform.</h4>
+                            <p class="card-text">The output waveform for both design are the same when the same input is given.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add a blank row here -->
+            <div class="row" style="margin-top: 50px;"></div>
+
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <img class="card-img-top" src="images\Decoder_resourceUtilize.png" alt="Card image" style="width:60%; margin:auto;">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title" style="text-align: center;">Resource Utilization.</h4>
+                            <p class="card-text">Improved design has lower number of Look Up Table (LUT) and achieve lower percentage of utilization.</p>
                         </div>
                     </div>
                 </div>

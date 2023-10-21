@@ -4,7 +4,7 @@
 }
 
 /* hero background image */
-.bgimage {
+.herobgimage {
     height:100vh;
     background: url('images/heroImage.jpeg');
     background-size:cover;
@@ -24,6 +24,107 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+}
+
+/* FYP background image */
+.FYPbgimage {
+    height:100vh;
+    opacity: 0.6;
+    background: url('images/FYP_banner.jpeg');
+    background-size:cover;
+    position:relative;
+}
+
+/* paniotic background image */
+.panopticbgimage {
+    height:100vh;
+    opacity: 0.6;
+    background: url('images/panoptic_Seg_banner.jpeg');
+    background-size:cover;
+    position:relative;
+}
+
+/* enzyme background image */
+.enzymebgimage {
+    height:100vh;
+    opacity: 0.6;
+    background: url('images/enzyme_banner.jpeg');
+    background-size:cover;
+    position:relative;
+}
+
+/* IoT background image */
+.IoTbgimage {
+    height:100vh;
+    background: url('images/IoT_banner.jpeg');
+    background-size:cover;
+    position:relative;
+}
+
+/* decoder background image */
+.decoderbgimage {
+    height:100vh;
+    opacity: 0.6;
+    background: url('images/Decoder_banner.jpeg');
+    background-size:cover;
+    position:relative;
+}
+
+/* traffic background image */
+.trafficbgimage {
+    height:100vh;
+    background: url('images/traffic_Light_banner.jpg');
+    background-size:cover;
+    position:relative;
+}
+
+/* regulator background image */
+.regulatorbgimage {
+    height:100vh;
+    opacity: 0.6;
+    background: url('images/multivoltageregulator_banner.jpg');
+    background-size:cover;
+    position:relative;
+}
+
+/* raspberry pi background image */
+.pibgimage {
+    height:100vh;
+    opacity: 0.6;
+    background: url('images/RaspberryPi_InfraredCam_banner.jpeg');
+    background-size:cover;
+    position:relative;
+}
+.pi-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+/* infraredCam background image */
+.infraredCambgimage {
+    height:100vh;
+    opacity: 0.6;
+    background: url('images/RaspberryPi_InfraredCam_banner.jpeg');
+    background-size:cover;
+    position:relative;
+}
+
+/* 3DModelling background image */
+.modellingbgimage {
+    height:100vh;
+    opacity: 0.6;
+    background: rgba(0, 0, 0, 0.6) url('images/3D_modelling_banner.jpg');
+    background-size:cover;
+    position:relative;
+}
+
+/* Set the text opacity to fully opaque */
+.text-container h2, .text-container p {
+    opacity: 1; 
 }
 
 /* spacing on all sections */
