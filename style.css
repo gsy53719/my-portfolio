@@ -29,7 +29,7 @@
 /* FYP background image */
 .FYPbgimage {
     height:100vh;
-    opacity: 0.6;
+    opacity: 0.8;
     background: url('images/FYP_banner.jpeg');
     background-size:cover;
     position:relative;
@@ -38,8 +38,8 @@
 /* paniotic background image */
 .panopticbgimage {
     height:100vh;
-    opacity: 0.6;
-    background: url('images/panoptic_Seg_banner.jpeg');
+    /* opacity: 0.6; */
+    background: url('images/panoptic_Seg_banner.jpg');
     background-size:cover;
     position:relative;
 }
@@ -47,7 +47,7 @@
 /* enzyme background image */
 .enzymebgimage {
     height:100vh;
-    opacity: 0.6;
+    /* opacity: 0.6; */
     background: url('images/enzyme_banner.jpeg');
     background-size:cover;
     position:relative;
@@ -64,7 +64,7 @@
 /* decoder background image */
 .decoderbgimage {
     height:100vh;
-    opacity: 0.6;
+    /* opacity: 0.6; */
     background: url('images/Decoder_banner.jpeg');
     background-size:cover;
     position:relative;
@@ -81,7 +81,7 @@
 /* regulator background image */
 .regulatorbgimage {
     height:100vh;
-    opacity: 0.6;
+    /* opacity: 0.6; */
     background: url('images/multivoltageregulator_banner.jpg');
     background-size:cover;
     position:relative;
@@ -90,7 +90,7 @@
 /* raspberry pi background image */
 .pibgimage {
     height:100vh;
-    opacity: 0.6;
+    /* opacity: 0.6; */
     background: url('images/RaspberryPi_InfraredCam_banner.jpeg');
     background-size:cover;
     position:relative;
@@ -107,7 +107,7 @@
 /* infraredCam background image */
 .infraredCambgimage {
     height:100vh;
-    opacity: 0.6;
+    /* opacity: 0.6; */
     background: url('images/RaspberryPi_InfraredCam_banner.jpeg');
     background-size:cover;
     position:relative;
