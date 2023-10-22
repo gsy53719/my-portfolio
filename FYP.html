@@ -132,7 +132,7 @@
                     <div class="card">
                         <div class="card-body">
                             <h4 class="card-title">First Stage Algorithm - Dark Frames Enhancement</h4>
-                            <p class="card-text">CNN-based architecture learn useful information from a set of groundtruth dataset, basically a set of well-lit image, and adjust dark frames to a more visually recptive level.</p>
+                            <p class="card-text">The proposed CNN-based archtecture for dark frames enhancement purpose only consist of 10 convolutional layers that stack together with skip connections in between, allow the network learns both low and high level features at the same time. This architecture learn useful information from a set of well-lit images, and enhance the dark frames to a more visually recptive level based on the features learned from those well-lit images. Additional technique called Adaptive Gamma Intensity Correction had been added in advance to further improve the enhancement result. this technique refers to the adjustment of gamma intensity level of the dark frames to an optimal value by the algorithm itself.</p>
                         </div>
                     </div>
                 </div>
@@ -151,7 +151,7 @@
                     <div class="card">
                         <div class="card-body">
                             <h4 class="card-title">Second Stage Algorithm - Action Recognition</h4>
-                            <p class="card-text">Apply transfer learning on the pretrained YOLOv7 network to achieve high speed recognition while maintaining the accuracy.</p>
+                            <p class="card-text">Transfer learning is the technique used for action recognition in this case. YOLOv7 network had been chosen based on its high recognition speed characteristic while still maintaining good accuracy. The pretrained YOLOv7 had then been retrained on the enhanced version of the dark frames that containing human action.</p>
                         </div>
                     </div>
                 </div>
