@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio Website-Brad</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="#">Shi Yong Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#award">Award and Qualification</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    <!-- main banner -->
+    <section class="herobgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title">Welcome to My Portfolio,</h2>
+                <h2 class="hero_title">Shi Yong here !</h2>
+                <p class="hero_desc">I am a recent graduate from Technical University of Malaysia Malacca (UTeM) with an academic background in Electronic Engineering.</p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section-->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">About Me</h1>
+            <div class="row mt-3">
+                <div class="col-lg-3">
+                    <img src="images/shiyong_profile.jpg" class= "imageAboutPage" alt="">
+                </div>
+
+                <div class="col-lg-8">
+                    <p> I am currently seeking for an engineering role in R&D, Test Development, Computer Vision, IoT, IC Design, or other related field. Proficient in hands-on application of engineering principles and tools, I exhibit a driven and dedicated work ethic, coupled with strong communication and leadership skills. Additionally, I am fluent in English, Malay, and Chinese.</p>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Given Name: Shi Yong</li>
+                                <li>Age: 24</li>
+                                <!-- <li>Occupation: Fresh graduate with Electronic Engineering background</li> -->
+
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Surname: Goh</li>
+                                <!-- <li>Age: 28</li> -->
+                                <li>Occupation: Fresh graduate with Electronic Engineering background</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- <div class="row mt-3"> -->
+                        <!-- <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. -->
+                            <!-- Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. -->
+                        <!-- </p> -->
+                    <!-- </div> -->
+                </div>
+            </div>
+    </section>
+
+    <!-- portfolio section-->
+    <section id="portfolio">
+        <div class="container mt-3">
+            <h1 class="text-center">Portfolio</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/FYP.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Computer Vision Algorithm for Action Recognition in Dark Environment (Final Year Project)</h4>
+                            <!-- <p class="card-text">Research and Development of a two-stage algorithm capable of recognizing human actions in low-light environments. Its primary objective is to contribute to nighttime worker safety monitoring. The project integrates image processing methodologies with the application of computer vision, aiming to achieve an efficient combination of the two techniques. The assessment primarily revolves around evaluating the algorithm's performance concerning processing speed and recognition accuracy in challenging dark conditions.</p> -->
+                            <div class="text-center">
+                                <a href="FYP.html" class="btn btn-success">More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/Panoptic_Seg.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Panoptic Segmentation on Chili Fertigation Image for Robot Navigation and Obstacle Avoidance</h4>
+                            <div class="text-center">
+                                <a href="Panoptic_Seg.html" class="btn btn-success">More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/Novozymes.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Novozymes Enzyme Stability Prediction (Machine Learning Approach)</h4>
+                            <div class="text-center">
+                                <a href="Enzyme_Thermostability_Prediction.html" class="btn btn-success">More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/Lightning_Sys.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">IoT-based Lightning Monitoring System</h4>
+                            <div class="text-center">
+                                <a href="IoT_Lightning_Monitoring_System.html" class="btn btn-success">More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/Decoder_portfolio.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">4 to 16 Balanced Tree Decoder</h4>
+                            <div class="text-center">
+                                <a href="Decoder.html" class="btn btn-success">More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/traffic_Light_portfolio.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Traffic Light Controller</h4>
+                            <div class="text-center">
+                                <a href="traffic_Light.html" class="btn btn-success">More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/multivoltageregulator.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Multi Voltage Regulated Power Supply</h4>
+                            <div class="text-center">
+                                <a href="Multi_Volt_Reg_Pow_Sup.html" class="btn btn-success">More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/Assembly_Language_portfolio.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Assembly Language Controlling Raspberry Pi</h4>
+                            <div class="text-center">
+                                <a href="Assembly_language.html" class="btn btn-success">More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/Infrared_Cam_portfolio.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Concept Design of Infrared Camera with Temperature Measuring and Photo Capturing Function</h4>
+                            <div class="text-center">
+                                <a href="Infrared_Cam.html" class="btn btn-success">More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/3D_modelling.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">3D Modelling Using AutoCAD</h4>
+                            <div class="text-center">
+                                <a href="3D_Modelling.html" class="btn btn-success">More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- award section-->
+    <section id="award">
+        <div class="container mt-3">
+            <h1 class="text-center">Award and Qualification</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/Innovate_badge.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Innovate Malaysia Design COmpetition 2023</h4>
+                            <p class="card-text">Consolation Prize.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/INOTEK.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                Innovative and Technology Competition (INOTEK) 2023</h4>
+                            <p class="card-text">Silver Prize.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images\GE.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Board of Engineer Malaysia (BEM) Qualified Graduate Engineer</h4>
+                            <p class="card-text">Qualified Graduate Engineer by BEM.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section-->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contact Me</h1>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-6 d-flex justify-content-center">
+                    <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+                    <!-- <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+                        <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
+                            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=new+york&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                            </iframe>
+                        </div>
+                        <a class="googlemaps-html" href="https://www.embed-map.com" id="get-data-forembedmap">https://www.embed-map.com</a>
+                        <style>#embedmap-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
+                        </style>
+                    </div> -->
+                    
+                    <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+                        <div id="canvas-for-googlemap" style="height:100%; width:100%;max-width:100%;">
+                            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=8171,+Jalan+Kesang+Indah+11,+Taman+Kesang+Indah,+Jasin,+Malacca,+Malaysia&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                            </iframe>
+                        </div>
+                        <a class="google-map-html" rel="nofollow" href="https://www.bootstrapskins.com/themes" id="make-map-data">premium bootstrap themes</a>
+                        <style>#embedmap-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
+                        </style>
+                    </div>
+
+                </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-6 d-flex justify-content-center">
+                    <!-- form fields -->
+                    <!-- <form>
+                        <input type="text" class="form-control form-control-lg" placeholder="Name">
+                        <input type="email" class="form-control mt-3" placeholder="Email">
+                        <input type="text" class="form-control mt-3" placeholder="Subject">
+                        <div class="mb-3 mt-3">
+                            <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                        </div>
+                    </form> -->
+                    <!-- <button type="button" class="btn btn-success mt-3">Contact Me</button> -->
+
+                    <div class="social-icons mt-4">
+                        <a href="https://www.instagram.com/shiyong06" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/goh-shi-yong-602337231" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://wa.me/126928443" target="_blank"><i class="fab fa-twitch"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- footer section-->
+    <!-- <footer id="footer">
+        <div class="container-fluid"> -->
+            <!-- social media icons -->
+            <!-- <div class="social-icons mt-4">
+                <a href="https://www.instagram.com/shiyong06" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/goh-shi-yong-602337231" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://wa.me/126928443" target="_blank"><i class="fab fa-twitch"></i></a>
+            </div>
+        </div>
+    </footer> -->
+
+    <!-- load javascript after loading all html content -->
+    <script src="script/script.js"></script>
+
+</body>
+
+</html>
